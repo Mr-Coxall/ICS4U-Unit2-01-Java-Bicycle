@@ -20,6 +20,6 @@ public class Bicycle {
     * @param decrement -  how much to slow down
     */
     public void applyBrake(int decrement) {
-        final this.speed -= decrement;
+        this.speed -= decrement;
     }
 }
