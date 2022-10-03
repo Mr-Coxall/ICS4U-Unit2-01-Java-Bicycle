@@ -1,14 +1,9 @@
 /**
- * The Bicycle program implements an application that
- * uses the Bicycle Class.
+ * This is the standard Main() class starting point.
  *
  * By:      Mr. Coxall
  * Version: 1.0
  * Since:   2020-01-01
- */
-
-/**
- * This is the standard Main() class starting point.
  */
 final class Main {
 
