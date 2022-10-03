@@ -32,6 +32,6 @@ jobs:
         uses: MathieuSoysal/Javadoc-publisher.yml@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          javadoc-branch: doc
+          javadoc-branch: docs
           java-version: 11
-          target-folder: doc
+          target-folder: docs
