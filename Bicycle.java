@@ -6,7 +6,7 @@
  * Since:   2020-01-01
  */
 public class Bicycle {
-        
+
     // the Bicycle class has
     // three fields
     int cadence;
