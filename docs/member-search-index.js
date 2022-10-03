@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"<Unnamed>","c":"Bicycle","l":"applyBrake(int)"},{"p":"<Unnamed>","c":"Bicycle","l":"Bicycle()","url":"%3Cinit%3E()"}]
