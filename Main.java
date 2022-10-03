@@ -28,9 +28,9 @@ final class Main {
         // use Bicycle class
         final Bicycle someBicycle1 = new Bicycle();
         final Bicycle someBicycle2 = new Bicycle();
-        final int BIKE_1_START_SPEED = 10;
-        final int BIKE_2_START_SPEED = 5;
-        final int BRAKE_SPEED = 2;
+        public final int BIKE_1_START_SPEED = 10;
+        public final int BIKE_2_START_SPEED = 5;
+        public final int BRAKE_SPEED = 2;
 
 		System.out.println("\nSet speed to 10 on bike 1.");
 		someBicycle1.speed = BIKE_1_START_SPEED;
