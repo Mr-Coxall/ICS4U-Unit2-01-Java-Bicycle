@@ -8,10 +8,18 @@
 
 public class Bicycle {
     /**
-     * the Bicycle class has 3 fields
+     * the number of revolutions of the peddles per minute
     */
     int cadence;
+
+    /**
+     * what gear the bike is in
+    */
     int gear;
+
+    /**
+     * the current speed of the bike
+    */
     int speed;
 
     /**

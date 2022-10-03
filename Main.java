@@ -31,7 +31,7 @@ final class Main {
      */
     public static void main(final String[] args) {
         // use Bicycle class
-		final Bicycle someBicycle1 = new Bicycle();
+        final Bicycle someBicycle1 = new Bicycle();
 		final Bicycle someBicycle2 = new Bicycle();
 		final int BIKE1_START_SPEED = 10;
 	    final int BIKE2_START_SPEED = 5;
@@ -51,8 +51,10 @@ final class Main {
     	someBicycle1.applyBrake(BRAKE_SPEED);
 		someBicycle2.applyBrake(BRAKE_SPEED);
 
-        System.out.println("The new speed on bike 1 is: " + someBicycle1.speed);
-		System.out.println("The new speed on bike 2 is: " + someBicycle2.speed);
+        System.out.println("The new speed on bike 1 is: "
+                           + someBicycle1.speed);
+		System.out.println("The new speed on bike 2 is: "
+                           + someBicycle2.speed);
 
         System.out.println("\nDone.");
 	}
