@@ -1,4 +1,34 @@
+/**
+ * The Bicycle program implements an application that
+ * uses the Bicycle Class.
+ *
+ * By:      Mr. Coxall
+ * Version: 1.0
+ * Since:   2020-01-01
+ */
+
+ /**
+* This is the standard "Hello, World!" program.
+*/
 class Main {
+
+    /**
+    * Prevent instantiation.
+    * Throw an exception IllegalStateException.
+    * if this ever is called
+    *
+    * @throws IllegalStateException
+    *
+    */
+    private Main() {
+        throw new IllegalStateException("Cannot be instantiated");
+    }
+
+    /**
+    * The starting main() function.
+    *
+    * @param args No args will be used
+    */
 	public static void main(String[] args) {
 		// use Bicycle class
 		Bicycle someBicycleVariable = new Bicycle();
