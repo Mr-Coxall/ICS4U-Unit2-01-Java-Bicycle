@@ -1,4 +1,4 @@
-/*
+/**
  * The Bicycle program implements an application that
  * uses the Bicycle Class.
  *
@@ -25,10 +25,10 @@ final class Main {
     }
 
     /**
-    * The starting main() function.
-    *
-    * @param args No args will be used
-    */
+     * The starting main() function.
+     *
+     * @param args No args will be used
+     */
     public static void main(final String[] args) {
         // use Bicycle class
 		final Bicycle someBicycleVariable = new Bicycle();

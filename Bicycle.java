@@ -1,4 +1,4 @@
-/*
+/**
  * The Bicycle Class.
  *
  * By:      Mr. Coxall
@@ -7,7 +7,7 @@
  */
 
 public class Bicycle {
-    /*
+    /**
      * the Bicycle class has 3 fields
     */
     int cadence;
@@ -20,6 +20,6 @@ public class Bicycle {
     * @param decrement -  how much to slow down
     */
     public void applyBrake(int decrement) {
-        this.speed -= decrement;
+        final this.speed -= decrement;
     }
 }
