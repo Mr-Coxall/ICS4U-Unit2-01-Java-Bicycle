@@ -17,7 +17,6 @@ public class Bicycle {
     * The applyBrake() function.
     *
     * @param decrement -  how much to slow down
-    * @return void
     */
     public void applyBrake(int decrement) {
         this.speed -= decrement;

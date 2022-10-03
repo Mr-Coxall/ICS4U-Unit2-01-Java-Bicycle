@@ -8,9 +8,9 @@
  */
 
  /**
-* This is the standard "Hello, World!" program.
+* This is the standard Main() class starting point.
 */
-class Main {
+final class Main {
 
     /**
     * Prevent instantiation.
@@ -35,7 +35,8 @@ class Main {
 
 		System.out.println("\nSet speed to 10.");
 		someBicycleVariable.speed = 10;
-    	System.out.println("The current speed is: " + someBicycleVariable.speed);
+    	System.out.println("The current speed is: " + 
+		                    someBicycleVariable.speed);
 
     	System.out.println("Apply the brake with value 2.");
     	someBicycleVariable.applyBrake(2);
