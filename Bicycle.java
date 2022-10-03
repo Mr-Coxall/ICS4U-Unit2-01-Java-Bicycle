@@ -8,17 +8,17 @@
 
 public class Bicycle {
     /**
-     * the number of revolutions of the peddles per minute
+     * The number of revolutions of the peddles per minute.
     */
     int cadence;
 
     /**
-     * what gear the bike is in
+     * What gear the bike is in.
     */
     int gear;
 
     /**
-     * the current speed of the bike
+     * The current speed of the bike.
     */
     int speed;
 
