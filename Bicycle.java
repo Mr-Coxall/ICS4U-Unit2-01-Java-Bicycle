@@ -1,10 +1,11 @@
-/**
+/*
  * The Bicycle Class.
  *
  * By:      Mr. Coxall
  * Version: 1.0
  * Since:   2020-01-01
  */
+
 public class Bicycle {
     /*
      * the Bicycle class has 3 fields

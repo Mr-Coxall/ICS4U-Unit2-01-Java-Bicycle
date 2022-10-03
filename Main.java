@@ -30,11 +30,12 @@ final class Main {
     * @param args No args will be used
     */
     public static void main(final String[] args) {
-		// use Bicycle class
+        // use Bicycle class
 		final Bicycle someBicycleVariable = new Bicycle();
+		public static final int BRAKE_SPEED = 10
 
 		System.out.println("\nSet speed to 10.");
-		someBicycleVariable.speed = 10;
+		someBicycleVariable.speed = BRAKE_SPEED;
     	System.out.println("The current speed is: "
 		                    + someBicycleVariable.speed);
 
